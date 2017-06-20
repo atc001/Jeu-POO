@@ -1,0 +1,38 @@
+html {
+    width: 100%
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+}
+header {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    text-transform: uppercase;
+}
+#resultat {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tour {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+}
+.tour p {
+    padding: 10px;
+}
